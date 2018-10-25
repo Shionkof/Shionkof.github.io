@@ -304,6 +304,68 @@ article p {
 	line-height: 28px;
 	padding: 0 30px;
 }
+.contact {
+	padding: 100px 0;
+	text-align: center;
+}
+.contact form {
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.contact div {
+	width: 100%;
+	max-width: 560px;
+}
+.contact input {
+	display: 100%;
+	width: 67px;
+	background: #140e1d;
+	border: none;
+	border-radius: 10px;
+	padding: 0 25px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	outline: none;
+}
+.contact textarea {
+	width: 100%
+	max-width: 500px;
+	height: 165px;
+	background: #140e1d;
+	border: none;
+	border-radius: 10px;
+	padding: 25px;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	outline: none;
+}
+.contact button {
+	width: 144px;
+	height: 47px;
+	background: #140e1d;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 500;
+	margin: 0 auto;
+
+}
+
+
+
+
+
 /*медиа-запросы*/
 @media(max-width: 1400px) {
 	.text {
@@ -328,6 +390,15 @@ article p {
 	}
 	.team {
 		justify-content: center;
+	}
+	.contact input,
+	.contact textarea,
+	.contact button {
+		width: 100%;
+		max-width: 100%;
+	}
+	.contact textarea {
+		margin-bottom: 30px;
 	}
 }
 @media(max-width: 1000px) {
